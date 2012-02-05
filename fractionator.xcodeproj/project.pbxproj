@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAB8F33F14DE2C3F006E14F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB8F33E14DE2C3F006E14F0 /* UIKit.framework */; };
+		EAB8F34114DE2C3F006E14F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB8F34014DE2C3F006E14F0 /* Foundation.framework */; };
+		EAB8F34314DE2C3F006E14F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB8F34214DE2C3F006E14F0 /* CoreGraphics.framework */; };
+		EAB8F34914DE2C3F006E14F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAB8F34714DE2C3F006E14F0 /* InfoPlist.strings */; };
+		EAB8F34B14DE2C3F006E14F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB8F34A14DE2C3F006E14F0 /* main.m */; };
+		EAB8F34F14DE2C3F006E14F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB8F34E14DE2C3F006E14F0 /* AppDelegate.m */; };
+		EAB8F35214DE2C3F006E14F0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAB8F35014DE2C3F006E14F0 /* MainStoryboard.storyboard */; };
+		EAB8F35514DE2C3F006E14F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB8F35414DE2C3F006E14F0 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EAB8F33A14DE2C3F006E14F0 /* fractionator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fractionator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB8F33E14DE2C3F006E14F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EAB8F34014DE2C3F006E14F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EAB8F34214DE2C3F006E14F0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EAB8F34614DE2C3F006E14F0 /* fractionator-Info.plist */ = {isa = PBXFileReference; path = "fractionator-Info.plist"; sourceTree = "<group>"; };
+		EAB8F34814DE2C3F006E14F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EAB8F34A14DE2C3F006E14F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAB8F34C14DE2C3F006E14F0 /* fractionator-Prefix.pch */ = {isa = PBXFileReference; path = "fractionator-Prefix.pch"; sourceTree = "<group>"; };
+		EAB8F34D14DE2C3F006E14F0 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		EAB8F34E14DE2C3F006E14F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EAB8F35114DE2C3F006E14F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		EAB8F35314DE2C3F006E14F0 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		EAB8F35414DE2C3F006E14F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAB8F33714DE2C3F006E14F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB8F33F14DE2C3F006E14F0 /* UIKit.framework in Frameworks */,
+				EAB8F34114DE2C3F006E14F0 /* Foundation.framework in Frameworks */,
+				EAB8F34314DE2C3F006E14F0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAB8F32F14DE2C3F006E14F0 = {
+			isa = PBXGroup;
+			children = (
+				EAB8F34414DE2C3F006E14F0 /* fractionator */,
+				EAB8F33D14DE2C3F006E14F0 /* Frameworks */,
+				EAB8F33B14DE2C3F006E14F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAB8F33B14DE2C3F006E14F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAB8F33A14DE2C3F006E14F0 /* fractionator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAB8F33D14DE2C3F006E14F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAB8F33E14DE2C3F006E14F0 /* UIKit.framework */,
+				EAB8F34014DE2C3F006E14F0 /* Foundation.framework */,
+				EAB8F34214DE2C3F006E14F0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAB8F34414DE2C3F006E14F0 /* fractionator */ = {
+			isa = PBXGroup;
+			children = (
+				EAB8F34D14DE2C3F006E14F0 /* AppDelegate.h */,
+				EAB8F34E14DE2C3F006E14F0 /* AppDelegate.m */,
+				EAB8F35014DE2C3F006E14F0 /* MainStoryboard.storyboard */,
+				EAB8F35314DE2C3F006E14F0 /* ViewController.h */,
+				EAB8F35414DE2C3F006E14F0 /* ViewController.m */,
+				EAB8F34514DE2C3F006E14F0 /* Supporting Files */,
+			);
+			path = fractionator;
+			sourceTree = "<group>";
+		};
+		EAB8F34514DE2C3F006E14F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAB8F34614DE2C3F006E14F0 /* fractionator-Info.plist */,
+				EAB8F34714DE2C3F006E14F0 /* InfoPlist.strings */,
+				EAB8F34A14DE2C3F006E14F0 /* main.m */,
+				EAB8F34C14DE2C3F006E14F0 /* fractionator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAB8F33914DE2C3F006E14F0 /* fractionator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAB8F35814DE2C3F006E14F0 /* Build configuration list for PBXNativeTarget "fractionator" */;
+			buildPhases = (
+				EAB8F33614DE2C3F006E14F0 /* Sources */,
+				EAB8F33714DE2C3F006E14F0 /* Frameworks */,
+				EAB8F33814DE2C3F006E14F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fractionator;
+			productName = fractionator;
+			productReference = EAB8F33A14DE2C3F006E14F0 /* fractionator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAB8F33114DE2C3F006E14F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = EAB8F33414DE2C3F006E14F0 /* Build configuration list for PBXProject "fractionator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EAB8F32F14DE2C3F006E14F0;
+			productRefGroup = EAB8F33B14DE2C3F006E14F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAB8F33914DE2C3F006E14F0 /* fractionator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAB8F33814DE2C3F006E14F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB8F34914DE2C3F006E14F0 /* InfoPlist.strings in Resources */,
+				EAB8F35214DE2C3F006E14F0 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAB8F33614DE2C3F006E14F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB8F34B14DE2C3F006E14F0 /* main.m in Sources */,
+				EAB8F34F14DE2C3F006E14F0 /* AppDelegate.m in Sources */,
+				EAB8F35514DE2C3F006E14F0 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EAB8F34714DE2C3F006E14F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAB8F34814DE2C3F006E14F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EAB8F35014DE2C3F006E14F0 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAB8F35114DE2C3F006E14F0 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAB8F35614DE2C3F006E14F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EAB8F35714DE2C3F006E14F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAB8F35914DE2C3F006E14F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fractionator/fractionator-Prefix.pch";
+				INFOPLIST_FILE = "fractionator/fractionator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EAB8F35A14DE2C3F006E14F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fractionator/fractionator-Prefix.pch";
+				INFOPLIST_FILE = "fractionator/fractionator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAB8F33414DE2C3F006E14F0 /* Build configuration list for PBXProject "fractionator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB8F35614DE2C3F006E14F0 /* Debug */,
+				EAB8F35714DE2C3F006E14F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAB8F35814DE2C3F006E14F0 /* Build configuration list for PBXNativeTarget "fractionator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB8F35914DE2C3F006E14F0 /* Debug */,
+				EAB8F35A14DE2C3F006E14F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAB8F33114DE2C3F006E14F0 /* Project object */;
+}
