@@ -42,11 +42,13 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
+    [self number_entered:nil];
 }
 
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
+    [numerator_1 becomeFirstResponder];
 }
 
 - (void)viewWillDisappear:(BOOL)animated
@@ -115,6 +117,7 @@
     }
 }
 
+/*
 - (void)touchesEnded: (NSSet *)touches withEvent: (UIEvent *)event {
     for (UIView* view in self.view.subviews) {
         if ([view isKindOfClass:[UITextField class]])
@@ -126,6 +129,7 @@
     [textField resignFirstResponder];
     return YES;
 }
+*/
 
 - (IBAction)number_entered:(id)sender {
     int which_field;
@@ -140,12 +144,12 @@
         
         NSString *value = field.text;
         if ([value length] > 0) {
-            NSLog(@"Enabling button #%i", which_button);
+            // reformat the string to be 8 digits long max
+
             [button setEnabled:YES];
             [button setTitle:@"clear" forState:UIControlStateNormal];
             num_entries++;
         } else {
-            NSLog(@"Disabling button #%i", which_button);
             [button setEnabled:NO];
             [button setTitle:@"" forState:UIControlStateNormal];
         }

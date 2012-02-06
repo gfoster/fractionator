@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA06D4AD14DEDFB000502550 /* rectangular brass button.png in Resources */ = {isa = PBXBuildFile; fileRef = EA06D4AC14DEDFB000502550 /* rectangular brass button.png */; };
+		EA06D4AF14DF0F3100502550 /* rectangular brass button - disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = EA06D4AE14DF0F3100502550 /* rectangular brass button - disabled.png */; };
+		EA06D4B114DF127000502550 /* blue bkgnd.png in Resources */ = {isa = PBXBuildFile; fileRef = EA06D4B014DF127000502550 /* blue bkgnd.png */; };
 		EAB8F33F14DE2C3F006E14F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB8F33E14DE2C3F006E14F0 /* UIKit.framework */; };
 		EAB8F34114DE2C3F006E14F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB8F34014DE2C3F006E14F0 /* Foundation.framework */; };
 		EAB8F34314DE2C3F006E14F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB8F34214DE2C3F006E14F0 /* CoreGraphics.framework */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA06D4AC14DEDFB000502550 /* rectangular brass button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rectangular brass button.png"; sourceTree = "<group>"; };
+		EA06D4AE14DF0F3100502550 /* rectangular brass button - disabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rectangular brass button - disabled.png"; sourceTree = "<group>"; };
+		EA06D4B014DF127000502550 /* blue bkgnd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue bkgnd.png"; sourceTree = "<group>"; };
 		EAB8F33A14DE2C3F006E14F0 /* fractionator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fractionator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAB8F33E14DE2C3F006E14F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EAB8F34014DE2C3F006E14F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -31,6 +37,7 @@
 		EAB8F35114DE2C3F006E14F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		EAB8F35314DE2C3F006E14F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EAB8F35414DE2C3F006E14F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EAC8939A14DF42F20072911D /* fractionator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = fractionator.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +84,7 @@
 		EAB8F34414DE2C3F006E14F0 /* fractionator */ = {
 			isa = PBXGroup;
 			children = (
+				EAC8939A14DF42F20072911D /* fractionator.entitlements */,
 				EAB8F34D14DE2C3F006E14F0 /* AppDelegate.h */,
 				EAB8F34E14DE2C3F006E14F0 /* AppDelegate.m */,
 				EAB8F35014DE2C3F006E14F0 /* MainStoryboard.storyboard */,
@@ -90,6 +98,9 @@
 		EAB8F34514DE2C3F006E14F0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EA06D4B014DF127000502550 /* blue bkgnd.png */,
+				EA06D4AE14DF0F3100502550 /* rectangular brass button - disabled.png */,
+				EA06D4AC14DEDFB000502550 /* rectangular brass button.png */,
 				EAB8F34614DE2C3F006E14F0 /* fractionator-Info.plist */,
 				EAB8F34714DE2C3F006E14F0 /* InfoPlist.strings */,
 				EAB8F34A14DE2C3F006E14F0 /* main.m */,
@@ -150,6 +161,9 @@
 			files = (
 				EAB8F34914DE2C3F006E14F0 /* InfoPlist.strings in Resources */,
 				EAB8F35214DE2C3F006E14F0 /* MainStoryboard.storyboard in Resources */,
+				EA06D4AD14DEDFB000502550 /* rectangular brass button.png in Resources */,
+				EA06D4AF14DF0F3100502550 /* rectangular brass button - disabled.png in Resources */,
+				EA06D4B114DF127000502550 /* blue bkgnd.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,10 +250,14 @@
 		EAB8F35914DE2C3F006E14F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "fractionator/fractionator-Prefix.pch";
 				INFOPLIST_FILE = "fractionator/fractionator-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -247,13 +265,52 @@
 		EAB8F35A14DE2C3F006E14F0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "fractionator/fractionator-Prefix.pch";
 				INFOPLIST_FILE = "fractionator/fractionator-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
+		};
+		EAC8939B14DF88220072911D /* Ad Hoc Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Ad Hoc Distribution";
+		};
+		EAC8939C14DF88220072911D /* Ad Hoc Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Gary Foster";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fractionator/fractionator-Prefix.pch";
+				INFOPLIST_FILE = "fractionator/fractionator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4DE6D2F3-3B04-4DFD-863F-45FDE53CB72C";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Ad Hoc Distribution";
 		};
 /* End XCBuildConfiguration section */
 
@@ -263,6 +320,7 @@
 			buildConfigurations = (
 				EAB8F35614DE2C3F006E14F0 /* Debug */,
 				EAB8F35714DE2C3F006E14F0 /* Release */,
+				EAC8939B14DF88220072911D /* Ad Hoc Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -272,8 +330,10 @@
 			buildConfigurations = (
 				EAB8F35914DE2C3F006E14F0 /* Debug */,
 				EAB8F35A14DE2C3F006E14F0 /* Release */,
+				EAC8939C14DF88220072911D /* Ad Hoc Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
